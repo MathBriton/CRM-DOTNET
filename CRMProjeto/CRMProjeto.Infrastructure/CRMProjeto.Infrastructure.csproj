@@ -2,7 +2,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CRMProjeto.Application\CRMProjeto.Application.csproj" />
-    <ProjectReference Include="..\CRMProjeto.Domain\CRMProjeto.domain.csproj" />
+    <ProjectReference Include="..\CRMProjeto.Domain\CRMProjeto.Domain.csproj" />
     <ProjectReference Include="..\CRMProjeto.Shared\CRMProjeto.Shared.csproj" />
   </ItemGroup>
 
@@ -12,6 +12,11 @@
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Repositories\" />
+    <Folder Include="Persistence\" />
   </ItemGroup>
 
   <PropertyGroup>

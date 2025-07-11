@@ -32,8 +32,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj": {
-                "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj"
+              "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj": {
+                "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj"
               },
               "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj": {
                 "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj"
@@ -76,12 +76,12 @@
         }
       }
     },
-    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj": {
+    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj",
-        "projectName": "CRMProjeto.domain",
-        "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj",
+        "projectUniqueName": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj",
+        "projectName": "CRMProjeto.Domain",
+        "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj",
         "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -172,8 +172,8 @@
               "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Application\\CRMProjeto.Application.csproj": {
                 "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Application\\CRMProjeto.Application.csproj"
               },
-              "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj": {
-                "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj"
+              "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj": {
+                "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj"
               },
               "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj": {
                 "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj"
@@ -198,6 +198,8 @@
           "targetAlias": "net9.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.7, )"
             },

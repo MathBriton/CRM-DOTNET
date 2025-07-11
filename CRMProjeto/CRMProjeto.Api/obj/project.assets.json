@@ -1080,8 +1080,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
-          "CRMProjeto.Shared": "1.0.0",
-          "CRMProjeto.domain": "1.0.0"
+          "CRMProjeto.Domain": "1.0.0",
+          "CRMProjeto.Shared": "1.0.0"
         },
         "compile": {
           "bin/placeholder/CRMProjeto.Application.dll": {}
@@ -1090,14 +1090,14 @@
           "bin/placeholder/CRMProjeto.Application.dll": {}
         }
       },
-      "CRMProjeto.domain/1.0.0": {
+      "CRMProjeto.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "compile": {
-          "bin/placeholder/CRMProjeto.domain.dll": {}
+          "bin/placeholder/CRMProjeto.Domain.dll": {}
         },
         "runtime": {
-          "bin/placeholder/CRMProjeto.domain.dll": {}
+          "bin/placeholder/CRMProjeto.Domain.dll": {}
         }
       },
       "CRMProjeto.Shared/1.0.0": {
@@ -3203,10 +3203,10 @@
       "path": "../CRMProjeto.Application/CRMProjeto.Application.csproj",
       "msbuildProject": "../CRMProjeto.Application/CRMProjeto.Application.csproj"
     },
-    "CRMProjeto.domain/1.0.0": {
+    "CRMProjeto.Domain/1.0.0": {
       "type": "project",
-      "path": "../CRMProjeto.Domain/CRMProjeto.domain.csproj",
-      "msbuildProject": "../CRMProjeto.Domain/CRMProjeto.domain.csproj"
+      "path": "../CRMProjeto.Domain/CRMProjeto.Domain.csproj",
+      "msbuildProject": "../CRMProjeto.Domain/CRMProjeto.Domain.csproj"
     },
     "CRMProjeto.Shared/1.0.0": {
       "type": "project",
@@ -3217,8 +3217,8 @@
   "projectFileDependencyGroups": {
     "net9.0": [
       "CRMProjeto.Application >= 1.0.0",
+      "CRMProjeto.Domain >= 1.0.0",
       "CRMProjeto.Shared >= 1.0.0",
-      "CRMProjeto.domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.7",
       "Swashbuckle.AspNetCore >= 6.5.0"
     ]

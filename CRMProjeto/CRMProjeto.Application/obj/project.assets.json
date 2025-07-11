@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net9.0": {}
+    "net9.0": {
+      "CRMProjeto.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CRMProjeto.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRMProjeto.Domain.dll": {}
+        }
+      },
+      "CRMProjeto.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/CRMProjeto.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CRMProjeto.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CRMProjeto.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CRMProjeto.Domain/CRMProjeto.Domain.csproj",
+      "msbuildProject": "../CRMProjeto.Domain/CRMProjeto.Domain.csproj"
+    },
+    "CRMProjeto.Shared/1.0.0": {
+      "type": "project",
+      "path": "../CRMProjeto.Shared/CRMProjeto.Shared.csproj",
+      "msbuildProject": "../CRMProjeto.Shared/CRMProjeto.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net9.0": []
+    "net9.0": [
+      "CRMProjeto.Domain >= 1.0.0",
+      "CRMProjeto.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Brito\\.nuget\\packages\\": {},
@@ -38,7 +73,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj": {
+              "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj"
+            },
+            "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj": {
+              "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

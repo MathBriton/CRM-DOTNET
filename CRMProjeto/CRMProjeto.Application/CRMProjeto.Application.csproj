@@ -1,8 +1,16 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\CRMProjeto.Domain\CRMProjeto.domain.csproj" />
+    <ProjectReference Include="..\CRMProjeto.Domain\CRMProjeto.Domain.csproj" />
     <ProjectReference Include="..\CRMProjeto.Shared\CRMProjeto.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Handlers\" />
+    <Folder Include="Mappers\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Queries\" />
   </ItemGroup>
 
   <PropertyGroup>

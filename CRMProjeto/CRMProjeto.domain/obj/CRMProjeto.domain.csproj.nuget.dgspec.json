@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.domain\\CRMProjeto.domain.csproj": {}
+    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.domain\\CRMProjeto.domain.csproj": {
+    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.domain\\CRMProjeto.domain.csproj",
-        "projectName": "CRMProjeto.domain",
-        "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.domain\\CRMProjeto.domain.csproj",
+        "projectUniqueName": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj",
+        "projectName": "CRMProjeto.Domain",
+        "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.Domain.csproj",
         "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.domain\\obj\\",
+        "outputPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
