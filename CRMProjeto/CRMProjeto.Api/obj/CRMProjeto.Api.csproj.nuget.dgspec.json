@@ -1,0 +1,298 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Api\\CRMProjeto.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Api\\CRMProjeto.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Api\\CRMProjeto.Api.csproj",
+        "projectName": "CRMProjeto.Api",
+        "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Api\\CRMProjeto.Api.csproj",
+        "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Brito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Application\\CRMProjeto.Application.csproj": {
+                "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Application\\CRMProjeto.Application.csproj"
+              },
+              "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj": {
+                "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj"
+              },
+              "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj": {
+                "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Application\\CRMProjeto.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Application\\CRMProjeto.Application.csproj",
+        "projectName": "CRMProjeto.Application",
+        "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Application\\CRMProjeto.Application.csproj",
+        "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Brito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj": {
+                "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj"
+              },
+              "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj": {
+                "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj",
+        "projectName": "CRMProjeto.domain",
+        "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\CRMProjeto.domain.csproj",
+        "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Brito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj",
+        "projectName": "CRMProjeto.Shared",
+        "projectPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\CRMProjeto.Shared.csproj",
+        "packagesPath": "C:\\Users\\Brito\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Brito\\Desktop\\Dotnet-Projects\\CRMProjeto\\CRMProjeto.Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Brito\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
